@@ -1,7 +1,6 @@
 import random, string
 import time
 import os
-from turtle import pos
 txtwriter=open("TWTele.txt","w", encoding='utf-8')
 
 print("密碼字典生成中...")
