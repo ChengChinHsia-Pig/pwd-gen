@@ -12,6 +12,7 @@
 - 台灣手機電話號碼(09xxxxxxxx) 
 - 台灣市話號碼(xxxx-xxxx) 
 - 台灣國際號碼(886xxxxxxxxx) 
+- 台灣身份證字號(Xxxxxxxxxx)
 - 亂數(123....) 
 - 民國生日(xx.xx.xx) 
 - 西元生日(xxxx.xx.xx) 
