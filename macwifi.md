@@ -14,3 +14,5 @@ sudo aircrack-ng /tmp/終端機會輸出檔案名.cap
 cd  ~/你的Wifi/字典路徑
 sudo aircrack-ng -w 字典名稱.txt /tmp/終端機會輸出檔案名.cap #破解密碼
 ```
+
+資料來源：https://www.cnblogs.com/hzxll/p/16271446.html
