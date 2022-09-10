@@ -1,10 +1,10 @@
-## Wifi密碼破解實戰-Mac
+# Wifi密碼破解實戰-Mac
 
-# 事前準備
+## 事前準備
 - 密碼字典
 - 安裝MacPorts
 
-# 所需指令
+## 所需指令
 ```js
 sudo port selfupdate
 sudo port install aircrack-ng
