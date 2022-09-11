@@ -11,6 +11,7 @@
 ## 已完成功能
 - 台灣手機電話號碼(09xxxxxxxx) 
 - 台灣"無區碼"市話號碼(xxxx-xxxx) 
+- 台灣"含區碼"市話號碼((xx)xxxx-xxxx)
 - 台灣國際號碼(886xxxxxxxxx) 
 - 台灣身份證字號(Xxxxxxxxxx)
 - 亂數(123....) 
