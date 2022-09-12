@@ -3,7 +3,10 @@
 
 ##作者簡介
 - 我叫ChengChinHsia，熱愛寫程式，Python能力不算好，有任何bug都請通知我以便修改及精進～
-(print.jpeg)
+![print](print.jpeg)
+![print2](print.webp)
+![transfor](python_transfor.jpeg)
+![c++](c++.jpeg)
 ## 必要套件
 - request
 
