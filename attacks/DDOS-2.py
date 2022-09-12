@@ -3,6 +3,20 @@ import webbrowser
 import time
 import requests
 import os
+print('''
+|||||||||         |||||||||         |||||||||||          |||||||||
+|        |        |        |        |         |           \\
+|         |       |         |       |         |            \\
+|          |      |          |      |         |             \\
+|           |     |           |     |         |              \\
+|          |      |          |      |         |               \\
+|         |       |         |       |         |                \\
+|        |        |        |        |         |                 \\
+|||||||||         |||||||||         |||||||||||         ||||||||||
+####################################################################
+Made By ChengChinHsia
+''')
+
 
 url = input("Url Here(With https or http):")
 times = input("Attack Times:")
