@@ -6,6 +6,10 @@
 - request
 - socket
 
+```js
+python -m pip install webbrowser, requests, socket
+```
+
 ## 注意事項
 - 請先安裝Python
 - 請不要拿去幹壞事
