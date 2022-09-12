@@ -4,7 +4,6 @@ import time
 import requests
 import os
 
-#驗證連結可用性
 url = input("Url Here(With https or http):")
 times = input("Attack Times:")
 for i in range(int(times)):
