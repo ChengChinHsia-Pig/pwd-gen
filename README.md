@@ -19,7 +19,9 @@
 - 西元生日(xxxx.xx.xx) 
 
 ## 已完成功能(攻擊)
-- DDOS攻擊(By:Andysun06)
+- DDOS攻擊第一版(By:Andysun06)
+- DDOS攻擊第二版(By:ChengChinHsia)
+* 以上兩個版本的攻擊原理不一樣
 
 
 > Last Update:2022/09/11
