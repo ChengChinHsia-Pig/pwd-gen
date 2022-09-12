@@ -1,6 +1,11 @@
 # 密碼破解套件
 此腳本基於Python 使用前請先確定電腦上有安裝Python
 
+## 必要套件
+- webbrowser
+- request
+- socket
+
 ## 注意事項
 - 請先安裝Python
 - 請不要拿去幹壞事
